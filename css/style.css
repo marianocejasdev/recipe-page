@@ -270,7 +270,9 @@ hr {
     }
 
     .recipe__image {
-        height: 171px;
+        min-height: 171px;
+        height: auto;
+        width: 100%;
         border-radius: 0;
     }
 }
